@@ -1,0 +1,12 @@
+.btn-success:hover{
+    background-color: aqua;
+}
+canvas{
+    animation-name: fortcraft;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes fortcraft{
+    from{box-shadow: 3px 3px 38px red;}
+    to{box-shadow: 3px 3px 38px orange;}
+}
